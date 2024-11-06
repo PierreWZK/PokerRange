@@ -1,3 +1,5 @@
+![Bannnière image poker](https://as2.ftcdn.net/v2/jpg/03/70/31/47/1000_F_370314729_CeFMHCbafWGUL2dlWPe2rLDNXgndV6WX.jpg)
+
 # Poker Range
 
 Bienvenue dans **Poker Range** ! Ce projet est un outil interactif conçu pour améliorer votre stratégie de jeu de poker en vous aidant à visualiser et gérer vos **ranges de préflop**. Que vous soyez débutant ou joueur avancé, Poker Range est conçu pour vous aider à prendre de meilleures décisions en fonction de vos mains, de la taille de votre stack, et d'autres facteurs critiques.
