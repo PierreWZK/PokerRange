@@ -1,0 +1,115 @@
+/* NAVBAR */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black-bar);
+    width: 100vw;
+}
+
+#navbar_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Ajoute l'espacement entre #position et #stack */
+    width: 100%;
+}
+
+#titleProject {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 10px;
+    text-align: start;
+    align-self: center;
+    min-width: 10rem;
+    max-width: 10rem;
+}
+
+#position, #stack {
+    color: var(--white-not-selected);
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin: 0 2rem 0 0;
+    overflow-x: auto;
+}
+
+.buttonNavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 60px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--black-other);
+    color: var(--white-not-selected);
+    cursor: pointer;
+}
+
+.buttonNavbar:hover {
+    background-color: var(--black-main);
+}
+
+.buttonNavbar_selected {
+    color: var(--white-selected);
+    border-bottom: 3px solid #E09B70;
+    pointer-events: none;
+}
+
+
+/* SIDE BAR */
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-bar);
+    height: 100vh;
+    min-width: 10rem;
+    max-width: 10rem;
+    margin: 0;
+}
+
+#list {
+    color: var(--white-not-selected);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.buttonsidebar {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 0;
+    color: var(--white-not-selected);
+    background-color: var(--black-other);
+    cursor: pointer;
+}
+
+.buttonsidebar:hover {
+    background-color: var(--black-main);
+}
+
+.button_selected {
+    color: var(--white-selected);
+    border-right: 3px solid #E09B70;
+}
+
+
+/* SCROLLBAR HORIZONTAL position & stack */
+#position::-webkit-scrollbar,
+#stack::-webkit-scrollbar {
+    height: 4px; /* Hauteur de la barre de défilement */
+}
+
+#position::-webkit-scrollbar-thumb,
+#stack::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3; /* Couleur de la barre */
+    border-radius: 2px;
+}
+
+#position::-webkit-scrollbar-track,
+#stack::-webkit-scrollbar-track {
+    background: transparent;
+}

@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --black-bar: #212121;
+    --black-main: #303030;
+    --black-other: #424242;
+
+    --white-not-selected: #B3B3B3;
+    --white-selected: #E7E7E7;
+
+    --check-fold: #efd0bd;
+    --raise-fold: #3599D4;
+    --open-raise: #65FF72;
+    --call-3bet: #9999fc;
+    --raise-4bet: #ff0611;
+}
+
+body {
+    /* Image de fond */
+    background-image: url("https://laravel.com/assets/img/welcome/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* Autres styles */
+    background-color: var(--black-main);
+    overflow: hidden;
+    position: relative;
+}
+
+#background_opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Noir avec transparence à 50% */
+    z-index: -1;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#visual {
+    display: flex;
+    padding: 20px;
+}
