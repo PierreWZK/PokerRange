@@ -4,6 +4,8 @@
     flex-direction: row;
     background-color: var(--black-bar);
     width: 100vw;
+    text-align: center;
+    max-height: 5rem;
 }
 
 #navbar_2 {
@@ -16,11 +18,21 @@
 #titleProject {
     color: white;
     font-size: 1.5em;
-    padding-left: 10px;
     text-align: start;
     align-self: center;
     min-width: 10rem;
     max-width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleProject img {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 #position, #stack {

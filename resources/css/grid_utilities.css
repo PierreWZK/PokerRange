@@ -1,0 +1,56 @@
+#utilities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--black-bar);
+    height: fit-content;
+    margin-left: 20px;
+}
+
+#utilities #legend {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-other);
+    padding: 10px;
+    margin-right: 10px;
+    height: fit-content;
+}
+
+#utilities {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-main);
+    height: fit-content;
+}
+#actions {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+#utilities td {
+    border: 1px solid var(--black-main);
+    padding: 10px;
+    text-align: center;
+}
+
+.check-fold {
+    background-color: var(--check-fold);
+}
+
+.raise-fold {
+    background-color: var(--raise-fold);
+}
+
+.open-raise {
+    background-color: var(--open-raise);
+}
+
+.call-3bet {
+    background-color: var(--call-3bet);
+}
+
+.raise-4bet {
+    background-color: var(--raise-4bet);
+}

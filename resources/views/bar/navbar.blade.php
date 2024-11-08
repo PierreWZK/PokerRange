@@ -2,7 +2,8 @@
 
 <nav>
     <div id="navbar">
-        <div id="titleProject">PokerRange</div>
+        {{-- <div id="titleProject">PokerRange</div> --}}
+        <div id="titleProject"><img src="{{ asset('logo.png') }}" alt=""></div>
         <div id="navbar_2">
 
             <div id="position">
@@ -20,15 +21,6 @@
                 <button id="27-40" type="button" class="buttonNavbar" onclick="setSelectedButtonNav(this)">27 à 40 BB</button>
                 <button id="40+" type="button" class="buttonNavbar" onclick="setSelectedButtonNav(this)">40+ BB</button>
             </div>
-        </div>
-    </div>
-</nav>
-
-<nav>
-    <div id="sidebar">
-        <div id="list">
-            <button id="Default" type="submit" class="buttonsidebar button_selected" onclick="setSelectedButtonSide(this)">Default</button>
-            <button type="submit" class="buttonsidebar" onclick="setSelectedButtonSide(this)">Personnal list</button>
         </div>
     </div>
 </nav>

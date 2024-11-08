@@ -1,0 +1,30 @@
+#grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    height: fit-content;
+}
+
+#grid #settingsTab {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: var(--black-other);
+    height: fit-content;
+}
+
+#grid #tabRange {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-main);
+    height: fit-content;
+}
+
+#grid td {
+    border: 1px solid var(--black-main);
+    padding: 10px;
+    text-align: center;
+}

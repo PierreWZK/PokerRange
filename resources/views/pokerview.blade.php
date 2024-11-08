@@ -5,6 +5,8 @@
         <meta name="viewport" conten    t="width=device-width, initial-scale=1">
 
         <title>Poker Range v{{$version}}</title>
+        {{-- Link favicon "with logo" --}}
+        <link rel="icon" href="{{ asset('logo.png') }}" type="image/x-icon" />
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -13,7 +15,14 @@
         </style>
     </head>
     <body>
-        @include('navbar')
+        @include('bar/navbar')
+        <div id="main">
+            @include('bar/sidebar')
+                <div id="visual">
+                    @include('grid')
+                    {{-- @include('utilities') --}}
+                </div>
+            </div>
         <div id="background_opacity"></div>
 
     </body>
